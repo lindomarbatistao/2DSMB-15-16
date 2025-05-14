@@ -1,0 +1,14 @@
+Nota = (Trabalho docusaurus + Forms1 + Forms2 + vídeo)/4
+
+Trabalho docusaurus.... grupo
+Forms1................. individual
+Forms2................. individual
+vídeo.................. grupo
+
+Forms => Metodologias Ágeis
+
+Vídeo Pitch => {
+	- entrega: 11/06
+	- tempo: 3 min máximo
+	- tema: livre, mas de acordo com o curso
+}
