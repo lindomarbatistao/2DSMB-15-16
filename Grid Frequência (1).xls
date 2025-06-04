@@ -1,0 +1,683 @@
+<form method="post" action="./RegistrarFrequencia.aspx" id="ctl00">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+<div>
+	<table class="table table-striped table-striped1 tableInterConsDocente" cellspacing="0" rules="all" border="1" id="MainContent_gdv" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">&nbsp;</th><th class="headerNome" scope="col">Aluno</th><th align="center" scope="col" style="width:5px;">&nbsp;</th><th align="center" scope="col" style="width:5px;">&nbsp;</th><th align="center" scope="col" style="width:5px;">Just. Falta</th><th scope="col">Matrícula</th><th scope="col">Status</th><th scope="col">A1</th><th scope="col">A2</th><th scope="col">A3</th>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_0">1</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_0">ADRIAN FILIPE MATARAGI NAVARRO</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_0">24240108</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_0"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_0&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_0" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_0&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_0" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_0&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_0" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_1">2</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_1">ANA CLARA DIAS XAVIER</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_1">24240109</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_1"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_1&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_1" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_1&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_1" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_1&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_1" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_2">3</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_2">ARIANE OLIVEIRA SILVA</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_2">24240110</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_2"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_2&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_2" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_2&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_2" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_2&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_2" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_3">4</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_3">EVELLYN RIBEIRO SENE SIMÕES</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_3">24240111</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_3"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_3&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_3" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_3&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_3" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_3&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_3" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_4">5</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_4">FRANCISCA YASMIN FREITAS DE ALMEIDA</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_4">24240112</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_4"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_4&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_4" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_4&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_4" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_4&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_4" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_5">7</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_5">GABRIELA ALEJANDRA BERGAMINE DOS SANTOS</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_5">24240113</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_5"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_5&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_5" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_5&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_5" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_5&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_5" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_6">8</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_6">GABRIELA DE MELO FREITAS</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_6">24240114</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_6"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_6&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_6" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_6&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_6" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_6&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_6" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_7">9</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_7">GEOVANNA SOUZA SANTOS</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_7">24240116</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_7"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_7&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_7" class="thaction THFrequencia" style="color:#EC0505;">F</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_7&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_7" class="thaction THFrequencia" style="color:#EC0505;">F</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_7&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_7" class="thaction THFrequencia" style="color:#EC0505;">F</span>
+                                    </td>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_8">10</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_8">GIOVANA CRISTINA BRITO PEREIRA</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_8">24240117</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_8"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_8&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_8" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_8&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_8" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_8&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_8" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_9">11</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_9">GUSTAVO BRUNO DE PAIVA FLORENTINO</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_9">24240118</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_9"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_9&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_9" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_9&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_9" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_9&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_9" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_10">12</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_10">ISRAEL SANTANA DE MORAIS</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_10">24240120</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_10"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_10&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_10" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_10&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_10" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_10&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_10" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_11">13</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_11">JOÃO PEDRO DOS SANTOS ADEGAS</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_11">24240122</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_11"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_11&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_11" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_11&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_11" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_11&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_11" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_12">14</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_12">JOYCE KELLY DE SOUZA SANTOS</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_12">24240123</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_12"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_12&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_12" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_12&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_12" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_12&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_12" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_13">15</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_13">KAMILA VITÓRIA DE SOUZA CARDOZO</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_13">24240124</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_13"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_13&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_13" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_13&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_13" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_13&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_13" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_14">16</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_14">KAUAN AFONSO DA SILVA</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_14">24240125</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_14"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_14&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_14" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_14&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_14" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_14&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_14" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_15">17</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_15">LETÍCIA OLIVEIRA DOS SANTOS</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_15">24240126</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_15"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_15&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_15" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_15&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_15" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_15&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_15" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_16">18</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_16">LIVIA COSTA MELO</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_16">24240127</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_16"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_16&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_16" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_16&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_16" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_16&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_16" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_17">19</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_17">LUANA GRANDI DA MOTA</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_17">24240129</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_17"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_17&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_17" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_17&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_17" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_17&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_17" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_18">20</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_18">LUCAS HENRIQUE BOARATTI SILVA</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_18">24240130</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_18"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_18&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_18" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_18&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_18" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_18&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_18" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_19">21</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_19">MARIA EDUARDA LIMA SILVA</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_19">24240131</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_19"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_19&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_19" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_19&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_19" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_19&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_19" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_20">22</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_20">NÍCOLAS DUARTE SILVA</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_20">24240132</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_20"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_20&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_20" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_20&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_20" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_20&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_20" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_21">23</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_21">NÍCOLAS VILELA BARROS DA COSTA ALVES</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_21">24240133</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_21"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_21&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_21" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_21&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_21" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_21&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_21" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_22">24</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_22">PEDRO ALVES ESTEVAM MAGAIESKI</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_22">24240134</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_22"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_22&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_22" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_22&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_22" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_22&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_22" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_23">25</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_23">RAPHAELA TAVARES FONSECA</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_23">24240135</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_23"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_23&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_23" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_23&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_23" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_23&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_23" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_24">26</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_24">TALITA CRISTINA ALVES LOBATO</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_24">24240136</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_24"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_24&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_24" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_24&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_24" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_24&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_24" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_25">27</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_25">THIFANY VITÓRIA DE SOUSA DE OLIVEIRA</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_25">24240137</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_25"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_25&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_25" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_25&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_25" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_25&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_25" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr><tr>
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_26">28</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_26">VINÍCIUS MARUCCI NEVES</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_26">24240139</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_26"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_26&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_26" class="thaction THFrequencia" style="color:#EC0505;">F</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_26&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_26" class="thaction THFrequencia" style="color:#EC0505;">F</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_26&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_26" class="thaction THFrequencia" style="color:#EC0505;">F</span>
+                                    </td>
+		</tr><tr class="alt">
+			<td class="gridRowRight" style="width:15px;">
+                                        <span id="MainContent_gdv_lblNroChamada_27">29</span>
+                                        
+                                        
+                                    </td><td style="width:740px;">
+                                        <span id="MainContent_gdv_lblAluno_27">YNGRID VITÓRIA SA BAETA</span>
+                                    </td><td>
+                                        <i class="fa fa-file-text-o"></i>
+                                    </td><td>
+                                        <i class="fa fa-exchange"></i>
+                                    </td><td align="center" style="width:122px;">
+                                        <i class="fa fa fa-check"></i>
+                                    </td><td class="gridRowRight" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblMatricula_27">24240140</span>
+                                    </td><td class="gridRowLeft" align="center" style="width:100px;">
+                                        <span id="MainContent_gdv_lblStatus_27"></span>
+                                    </td><td class="gridRowFreq CLS" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA1_27&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA1_27" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA2_27&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA2_27" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td><td class="gridRowFreq" align="center" onclick="AlterarPresenca(&#39;MainContent_gdv_lblA3_27&#39;);" style="width:20px;">
+                                        <span id="MainContent_gdv_lblA3_27" class="thaction THFrequencia" style="color:#428BCA;">C</span>
+                                    </td>
+		</tr>
+	</table>
+</div></form>

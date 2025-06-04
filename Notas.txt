@@ -1,8 +1,7 @@
-Média = (Trabalho do docussaurus + Forms1 + Forms2 + vídeo)/4 
+Média = ((Trabalho do docussaurus)*2 + Forms1 + vídeo)/4 
 
 Forms => Metodologias Ágeis
 Forms1 = 21/5
-Forms2 = 28/5
 
 Vídeo Pitch =>{
  - máximo 3 min
